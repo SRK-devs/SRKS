@@ -59,7 +59,7 @@ import SnapShotUtility.SnapshotUtilty;
         {
             wait_10.until(ExpectedConditions.visibilityOf(driver.findElement(By.name("email"))));
             
-            //SnapshotUtilty.snapShots(driver, "BeforeLogin");
+            
             SnapshotUtilty.snapShots(driver, "BeforeLogin");
 
             // ---------------login fields
