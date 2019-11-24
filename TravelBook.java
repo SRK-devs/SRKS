@@ -40,7 +40,7 @@ import SnapShotUtility.SnapshotUtilty;
         	//FileInputStream configFile=new FileInputStream("D:\\workspace\\PhpTravelMavenFramework1\\TravelConfig.properties");
         	prop.load(configFile);
         	
-            driver = new ChromeDriver();;;//Driver
+            driver = new ChromeDriver();;;//condu
            
             //driver.manage().window().maximize();
             // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -59,7 +59,7 @@ import SnapShotUtility.SnapshotUtilty;
         {
             wait_10.until(ExpectedConditions.visibilityOf(driver.findElement(By.name("email"))));
             
-            //SnapshotUtilty.snapShots(driver, "BeforeLogin");
+            it//SnapshotUtilty.snapShots(driver, "BeforeLogin");
             SnapshotUtilty.snapShots(driver, "BeforeLogin");
 
             // ---------------login fields
